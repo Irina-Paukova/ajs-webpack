@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server dist",
     "lint": "eslint .",
     "babel": "babel src -d dist",
     "build": "webpack --mode production"
@@ -27,6 +28,7 @@
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "babel-loader": "^8.2.5",
+    "core-js": "^3.22.3",
     "css-loader": "^6.7.1",
     "eslint": "^8.14.0",
     "eslint-config-airbnb-base": "^15.0.0",
